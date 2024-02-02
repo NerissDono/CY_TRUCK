@@ -28,7 +28,7 @@ Exécutez la commande `bash CYTruck.sh data/data.csv -h` pour découvrir les dif
 
 ## Téléchargement
 
-- Téléchargez `./CYTruck.zip` vie Github et extrayez le fichier `./CYTruck`. Le fichier data.csv étant trop gros pour Github, n'oubliez pas de l'ajouter dans le répertoire assigné en le remplaçant par le fichier déjà présent.
+- Téléchargez `./CYTruck.zip` vie Github et extrayez le fichier `./CYTruck`. Le fichier data.csv étant trop gros pour Github, n'oubliez pas de l'ajouter dans le répertoire assigné en le remplaçant par le fichier `data.csv` déjà présent.
 
 # Règles
 
