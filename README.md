@@ -1,32 +1,38 @@
-``# ***CY-Truck _ COBB Leo - MEDDOUR Bissem - SMAIL Yuness***
+``# **CY-Truck _ COBB Leo - MEDDOUR Bissem - SMAIL Yuness**
 
-## Magasin informatique
+## Outil Informatique de traitement de données
 
-Cy-Truck est un outil gérant l’ensemble de la logistique d’une société nationale de transport routier.<br/>
-En incluant le fichier data.csv dans le repertoire qui lui est attribué on peut donc recupérer les données necessaire.<br/>
-Une fois lancer,le programme nous aiguille quand à son utilisiation mais vous avez toujours la rubrique **Lancemment** pour vous aider.<br/>
+Cy-Truck est un outil gérant l’ensemble de la logistique d’une société nationale de transport routier. En incluant le fichier data.csv dans le répertoire qui lui est attribué, on peut récupérer les données nécessaires.
 
-Le programme permet de trier les données de data.csv afin de creer des graphiques via **Gnuplot** pour faciliter l'analyse des données.<br/>
+Une fois lancé, le programme guide l'utilisateur quant à son utilisation, mais vous avez toujours la rubrique **Lancement** pour vous aider.
 
-## Compatibilité systeme
+Le programme permet de trier les données de data.csv afin de créer des graphiques via **GnuPlot** pour faciliter l'analyse des données.
 
-Le programme est compatible avce les derniers versions de **Ubuntu**.
+## Compatibilité système
+
+Le programme est compatible avec les dernières versions de **Ubuntu**.
 
 ## Technologies utilisées
 
-* Langage de programmation : <code>C</code>, <code>Bash UNIX<code>
-* Type de programmation : **modulaire**
-* Logiciel utilisé : **Visual Studio Code** **Gnuplot**
+- Langage de programmation : `C`, `Bash UNIX`
+- Type de programmation : **modulaire**
+- Logiciel utilisé : **Visual Studio Code**, **GnuPlot**
 
 ## Lancement
-Afin d'utiliser le programme, veuillez ouvrir un terminal dans le dossier <code>CYTruck/<code>, assurer vous que data.csv soit dans le repertoire CYTruck/data<br/>
-Executer la commande <code>bash CYTruck.sh data/data.csv -h</code> pour decouvrir les different traitement disponible
 
-## Telechargement
-*Telecharger <code>./CY-Truck</code> et extraire le fichier, le fichier data.csv est trop gros pour Github, n'oubliez pas de l'ajouter dans le repertoire assigné.
+Pour utiliser le programme, ouvrez un terminal dans le dossier `CYTruck/`, assurez-vous de placer data.csv dans le répertoire CYTruck/data. 
 
-# Regles
+Se placer dans la racine du dossier `CYTruck/`
 
-* Il faut lire les differentes inscriptions du programme et les respecter.
-* Si une liste de chiffres est proposée, pour choisir il faut entrer le chiffre qui correspond à son choix.
-``
+Exécutez la commande `bash CYTruck.sh data/data.csv -h` pour découvrir les différents traitements disponibles.
+
+## Téléchargement
+
+- Téléchargez `./CYTruck.zip` vie Github et extrayez le fichier `./CYTruck`. Le fichier data.csv étant trop gros pour Github, n'oubliez pas de l'ajouter dans le répertoire assigné.
+
+# Règles
+
+- Pour exécuter un traitement particulier, utilisez la commande `bash CYTruck.sh data/data.csv <option>`.
+  - Exemple : Pour le traitement t, utilisez la commande `bash CYTruck.sh data/data.csv -t`.
+ 
+- Il est impératif que le fichier data.csv soit rangé dans le repartoire /data pour le bon fonctionnement du programme.``
