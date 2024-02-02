@@ -28,11 +28,12 @@ Exécutez la commande `bash CYTruck.sh data/data.csv -h` pour découvrir les dif
 
 ## Téléchargement
 
-- Téléchargez `./CYTruck.zip` vie Github et extrayez le fichier `./CYTruck`. Le fichier data.csv étant trop gros pour Github, n'oubliez pas de l'ajouter dans le répertoire assigné.
+- Téléchargez `./CYTruck.zip` vie Github et extrayez le fichier `./CYTruck`. Le fichier data.csv étant trop gros pour Github, n'oubliez pas de l'ajouter dans le répertoire assigné en le remplaçant par le fichier déjà présent.
 
 # Règles
 
 - Pour exécuter un traitement particulier, utilisez la commande `bash CYTruck.sh data/data.csv <option>`.
   - Exemple : Pour le traitement t, utilisez la commande `bash CYTruck.sh data/data.csv -t`.
  
-- Il est impératif que le fichier data.csv soit rangé dans le repartoire /data pour le bon fonctionnement du programme.``
+- Il est impératif que le fichier data.csv soit rangé dans le repartoire /data pour le bon fonctionnement du programme.
+``
